@@ -8,6 +8,7 @@ import '../widgets/banner.dart';
 import '../widgets/header.dart';
 import '../widgets/navbar.dart';
 import '../widgets/partner.dart';
+import '../widgets/whychoose.dart';
 import 'container/container1.dart';
 
 class Home extends StatefulWidget {
@@ -62,6 +63,7 @@ class _HomeState extends State<Home> {
               Container2(),
               Container3(),
               Container4(),
+              Whychoose(),
             ],
           ),
         ),
